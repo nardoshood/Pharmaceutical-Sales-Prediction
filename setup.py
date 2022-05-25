@@ -8,8 +8,8 @@ with open('README.md') as readme_file:
 
 requirements = ['pytest==7.1.1']
 
-test_requirements = ['pandas', 'matplotlib', 'sklearn',
-                     'streamlit', 'sql', 'pytest>=3', ]
+# test_requirements = ['pandas', 'matplotlib', 'sklearn',
+#                      'streamlit', 'sql', 'pytest>=3', ]
 
 setup(
     author="nardoshood",
