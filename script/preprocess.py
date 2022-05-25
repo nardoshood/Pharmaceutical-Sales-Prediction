@@ -71,17 +71,7 @@ class Preprocess:
             sys.exit(1)
 
     def label_encode(self, df, columns):
-        """Label encode the target variable.
-
-        Parameters
-        ----------
-        df: Pandas Dataframe
-            This is the dataframe containing the features and target variable.
-        columns: list
-        Returns
-        -------
-        The function returns a dataframe with the target variable encoded.
-        """
+        
         # Label Encoding
 
         label_encoded_columns = []
