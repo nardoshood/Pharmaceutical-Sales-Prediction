@@ -16,7 +16,7 @@ class TestUtilities(unittest.TestCase):
 
     def test_get_df(self):
         utilities = Utilities()
-        train = utilities.get_df(path='data/train.csv',rep='./',rev='tagv1')
+        train = utilities.get_df(path='data/train.csv',rep='./',rev='59ba323144fce140c5f6d959010119a5f73a42be')
         self.assertEqual(len(train), 1017209)
     
     
