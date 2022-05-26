@@ -1,0 +1,15 @@
+05-26-2022 11:29:04 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-26-2022 11:29:20 : INFO : scripts.logger : Converting Column to Datetime
+05-26-2022 11:29:39 : INFO : scripts.logger : Converting Column to Datetime
+05-26-2022 11:29:52 : INFO : scripts.logger : Converting Column to Datetime
+05-26-2022 11:31:18 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-26-2022 11:32:54 : INFO : scripts.logger : Converting Column to Datetime
+05-26-2022 11:32:54 : INFO : scripts.logger : Converting Column to Datetime
+05-26-2022 11:32:55 : INFO : scripts.logger : Getting Missing Data Percentage
+05-26-2022 11:41:09 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Median...
+05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Median...
+05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Mode
+05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Mode
+05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Zero
+05-26-2022 11:43:52 : INFO : scripts.logger : Getting Missing Values from Dataframe
