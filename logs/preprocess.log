@@ -73,3 +73,5 @@
 05-26-2022 14:43:34 : INFO : scripts.logger : Plotting a box plot for Column: Store
 05-26-2022 14:49:58 : INFO : scripts.logger : Successfully Instantiated preprocess Class Object
 05-26-2022 14:49:58 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-26-2022 19:22:33 : INFO : scripts.logger : Successfully Instantiated preprocess Class Object
+05-26-2022 19:22:33 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
