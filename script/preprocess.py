@@ -1,12 +1,12 @@
 """Preprocess the data."""
 
-import sys
-
+import sys, os
+sys.path.append(os.path.abspath(os.path.join('./script')))
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
-from logger import Logger
+# from logger import Logger
 from sklearn.model_selection import cross_validate
 from sklearn.preprocessing import LabelEncoder
 
@@ -17,7 +17,7 @@ class Preprocess:
         """Initilize class."""
         try:
             pass
-            self.logger = Logger("preprocess.log").get_app_logger()
+            # self.logger = Logger("preprocess.log").get_app_logger()
             self.logger.info(
                 'Successfully Instantiated preprocess Class Object')
         except Exception:
