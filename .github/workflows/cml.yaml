@@ -17,5 +17,5 @@ jobs:
           
           echo "CML works!!!!!!!!" >> report.md
           
-                  
+          git log --tags | head -n 20 >> report.md     
           cml send-comment report.md
