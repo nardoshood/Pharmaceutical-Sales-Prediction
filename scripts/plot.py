@@ -98,7 +98,7 @@ class Plot:
         plt.title(title, size=20)
         plt.xticks(rotation=75, fontsize=14)
         self.logger.info(
-            'Plotting a box plot for Column: ', x_col)
+            f'Plotting a box plot for Column: {x_col}')
         plt.show()
     
 
