@@ -16,3 +16,4 @@
 05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Mode
 05-26-2022 11:43:52 : INFO : scripts.logger : Filling Missing Data with Zero
 05-26-2022 11:43:52 : INFO : scripts.logger : Getting Missing Values from Dataframe
+05-26-2022 11:57:32 : INFO : scripts.logger : Converting Column to Datetime...

@@ -1,1 +1,2 @@
-pharma_env
+pharma_env/
+scripts/__pycache__/*
