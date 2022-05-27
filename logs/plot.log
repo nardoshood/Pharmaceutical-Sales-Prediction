@@ -64,3 +64,7 @@
 05-26-2022 14:43:34 : INFO : scripts.logger : Plotting a box plot for Column: Store
 05-26-2022 14:49:58 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
 05-26-2022 19:22:33 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-27-2022 17:33:21 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-27-2022 17:33:33 : INFO : scripts.logger : Converting Column to Datetime...
+05-27-2022 17:33:33 : INFO : scripts.logger : Converting Column to Datetime...
+05-27-2022 18:12:47 : INFO : scripts.logger : Getting Missing Data Percentage
