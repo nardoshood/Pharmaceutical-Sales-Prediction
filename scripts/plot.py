@@ -70,6 +70,9 @@ class Plot:
         df[num_feats].hist(figsize=(20, 15))
 
 
+    # def plot_line(x, y, hue, style,df):
+    #     sns.lineplot( x=x_col, y=y_col, hue=column, style=style data=df)
+             
 
     def plot_count(self, df: pd.DataFrame, column: str) -> None:
         
@@ -98,7 +101,7 @@ class Plot:
         plt.title(title, size=20)
         plt.xticks(rotation=75, fontsize=14)
         self.logger.info(
-            'Plotting a box plot for Column: ', x_col)
+            f'Plotting a box plot for Column: {x_col}')
         plt.show()
     
 
@@ -186,4 +189,13 @@ class Plot:
             'Plotting a subplots')
         plt.show()
 
-   
+    def plot_heatmap_from_correlation(self, correlation, title: str):
+        '''
+        heatmap: Plot rectangular data as a color-encoded matrix and correlation matrix.
+        title: Title of the plot
+        correlation: correlation matrix
+        '''
+        plt.figure(figsize=(14, 9))
+        sns.heatmap(correlation)
+        plt.title(title, size=18, fontweight='bold')
+        plt.show()
