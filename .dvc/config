@@ -1,2 +1,4 @@
 [core]
     autostage = true
+['remote "upstream"']
+    url = gdrive://1yxsUEcNQnLeCBqzJ01sdlRyI396OxMx3
