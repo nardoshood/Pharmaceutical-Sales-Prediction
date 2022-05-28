@@ -407,3 +407,6 @@ KeyError: 'Promo2SinceYear'
 05-28-2022 09:41:26 : INFO : scripts.logger : Converting Column to Datetime...
 05-28-2022 09:41:27 : INFO : scripts.logger : Converting Column to Datetime...
 05-28-2022 09:42:02 : INFO : scripts.logger : Plotting a bar chart
+05-28-2022 10:53:46 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-28-2022 15:04:17 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
+05-28-2022 15:16:01 : INFO : scripts.logger : Successfully Instantiated Preprocessing Class Object
