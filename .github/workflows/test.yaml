@@ -38,3 +38,15 @@ jobs:
       - name: Run tests
         run: python -m unittest tests/test*.py
       
+      env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GDRIVE_TOKEN: ${{ secrets.GDRIVE_CREDENTIALS_DATA }}
+        run: |
+          mkdir -p .dvc/tmp
+          touch .dvc/tmp/gdrive-user-credentials.json
+          echo $GDRIVE_TOKEN > .dvc/tmp/gdrive-user-credentials.json
+          dvc pull -r dvc_remote 
+      - name: Run tests
+        run: |
+          git pull origin $(git rev-parse --abbrev-ref HEAD) --tags
+          python -m unittest tests/test*.py
