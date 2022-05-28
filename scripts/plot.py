@@ -70,6 +70,9 @@ class Plot:
         df[num_feats].hist(figsize=(20, 15))
 
 
+    # def plot_line(x, y, hue, style,df):
+    #     sns.lineplot( x=x_col, y=y_col, hue=column, style=style data=df)
+             
 
     def plot_count(self, df: pd.DataFrame, column: str) -> None:
         
@@ -184,6 +187,17 @@ class Plot:
         axes[1].set_title(ytitle, size=20)
         self.logger.info(
             'Plotting a subplots')
+        plt.show()
+
+    def plot_heatmap_from_correlation(correlation, title: str):
+        '''
+        heatmap: Plot rectangular data as a color-encoded matrix and correlation matrix.
+        title: Title of the plot
+        correlation: correlation matrix
+        '''
+        plt.figure(figsize=(14, 9))
+        sns.heatmap(correlation)
+        plt.title(title, size=18, fontweight='bold')
         plt.show()
 
    
