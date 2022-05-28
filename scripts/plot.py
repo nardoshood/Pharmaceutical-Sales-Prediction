@@ -189,7 +189,7 @@ class Plot:
             'Plotting a subplots')
         plt.show()
 
-    def plot_heatmap_from_correlation(correlation, title: str):
+    def plot_heatmap_from_correlation(self, correlation, title: str):
         '''
         heatmap: Plot rectangular data as a color-encoded matrix and correlation matrix.
         title: Title of the plot
@@ -199,5 +199,3 @@ class Plot:
         sns.heatmap(correlation)
         plt.title(title, size=18, fontweight='bold')
         plt.show()
-
-   
