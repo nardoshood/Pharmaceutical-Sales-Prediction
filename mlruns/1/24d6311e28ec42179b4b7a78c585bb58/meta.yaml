@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/1/24d6311e28ec42179b4b7a78c585bb58/artifacts
+end_time: 1653832161230
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 24d6311e28ec42179b4b7a78c585bb58
+run_uuid: 24d6311e28ec42179b4b7a78c585bb58
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653832161211
+status: 4
+tags: []
+user_id: nardos
